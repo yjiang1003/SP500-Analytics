@@ -57,7 +57,7 @@ engine.dispose()
 plt.figure(figsize=(10, 4))
 plt.plot(
     df_vol.observation_date,
-    df_vol.ann_volatility * 100,  # multiply by 100 to show % if you like
+    df_vol.ann_volatility * 100,  
     linewidth=1
 )
 plt.title("S&P 500 30-Day Rolling Volatility (Annualized %)")
