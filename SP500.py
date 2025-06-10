@@ -7,7 +7,7 @@ from sqlalchemy import create_engine
 import numpy as np
 # Create a SQLAlchemy engine
 engine = create_engine(
-    "mysql+mysqlconnector://root:Jiang1003@127.0.0.1:3306/Stock Data"
+    "mysql+mysqlconnector://root:abc1234@127.0.0.1:3306/Stock Data"
 )
 # Use pandas with SQLAlchemy
 df = pd.read_sql("""
